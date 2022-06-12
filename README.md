@@ -5,6 +5,7 @@
 - Tanmay Badageri - badagert@oregonstate.edu
 
 **Running the Program**
+
 _1. Creating a network_
 
 - docker network create --driver bridge finalnet
