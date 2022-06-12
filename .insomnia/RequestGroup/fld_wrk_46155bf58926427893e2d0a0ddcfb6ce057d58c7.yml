@@ -1,0 +1,11 @@
+_id: fld_wrk_46155bf58926427893e2d0a0ddcfb6ce057d58c7
+type: RequestGroup
+parentId: wrk_46155bf58926427893e2d0a0ddcfb6ce
+modified: 1653950076232
+created: 1653950076232
+name: Assignments
+description: |
+  API endpoints related to Assignments.
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1653950076232

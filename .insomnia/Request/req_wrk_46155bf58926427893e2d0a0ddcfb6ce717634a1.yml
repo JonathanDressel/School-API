@@ -1,0 +1,32 @@
+_id: req_wrk_46155bf58926427893e2d0a0ddcfb6ce717634a1
+type: Request
+parentId: fld_wrk_46155bf58926427893e2d0a0ddcfb6ce057d58c7
+modified: 1653950115488
+created: 1653950076227
+url: "{{ base_url }}/assignments"
+name: Create a new Assignment.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "courseId": "123",
+      "title": "Assignment 3",
+      "points": 100,
+      "due": "2022-06-14T17:00:00-07:00"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_813b86525ff94da687240cbc93956f6b
+authentication: {}
+metaSortKey: -1653950076227
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

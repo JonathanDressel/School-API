@@ -1,0 +1,21 @@
+_id: req_wrk_46155bf58926427893e2d0a0ddcfb6ce8aa53266
+type: Request
+parentId: fld_wrk_46155bf58926427893e2d0a0ddcfb6ce057d58c7
+modified: 1653950076226
+created: 1653950076226
+url: "{{ base_url }}/assignments/{{ id }}"
+name: Fetch data about a specific Assignment.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1653950076226
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

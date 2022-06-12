@@ -1,0 +1,21 @@
+_id: req_wrk_46155bf58926427893e2d0a0ddcfb6ceb5f0dba9
+type: Request
+parentId: fld_wrk_46155bf58926427893e2d0a0ddcfb6cea16536d7
+modified: 1653950076229
+created: 1653950076229
+url: "{{ base_url }}/courses/{{ id }}"
+name: Remove a specific Course from the database.
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1653950076229
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

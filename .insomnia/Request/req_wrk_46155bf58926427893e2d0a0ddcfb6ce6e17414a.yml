@@ -1,0 +1,32 @@
+_id: req_wrk_46155bf58926427893e2d0a0ddcfb6ce6e17414a
+type: Request
+parentId: fld_wrk_46155bf58926427893e2d0a0ddcfb6ce057d58c7
+modified: 1653950115918
+created: 1653950076226
+url: "{{ base_url }}/assignments/{{ id }}"
+name: Update data for a specific Assignment.
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "courseId": "123",
+      "title": "Assignment 3",
+      "points": 100,
+      "due": "2022-06-14T17:00:00-07:00"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_de0c50213a264c718d0479cc211a4efb
+authentication: {}
+metaSortKey: -1653950076226
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

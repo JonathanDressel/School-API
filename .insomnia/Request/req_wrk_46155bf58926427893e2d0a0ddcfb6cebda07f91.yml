@@ -1,0 +1,21 @@
+_id: req_wrk_46155bf58926427893e2d0a0ddcfb6cebda07f91
+type: Request
+parentId: fld_wrk_46155bf58926427893e2d0a0ddcfb6cea16536d7
+modified: 1653950076228
+created: 1653950076228
+url: "{{ base_url }}/courses/{{ id }}/roster"
+name: Fetch a CSV file containing list of the students enrolled in the Course.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1653950076228
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

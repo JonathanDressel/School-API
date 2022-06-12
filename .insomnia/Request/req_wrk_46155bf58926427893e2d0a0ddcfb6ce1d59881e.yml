@@ -1,0 +1,21 @@
+_id: req_wrk_46155bf58926427893e2d0a0ddcfb6ce1d59881e
+type: Request
+parentId: fld_wrk_46155bf58926427893e2d0a0ddcfb6cea16536d7
+modified: 1653950076230
+created: 1653950076230
+url: "{{ base_url }}/courses/{{ id }}"
+name: Fetch data about a specific Course.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1653950076230
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

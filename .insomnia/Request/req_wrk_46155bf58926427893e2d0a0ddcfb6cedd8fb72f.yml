@@ -1,0 +1,36 @@
+_id: req_wrk_46155bf58926427893e2d0a0ddcfb6cedd8fb72f
+type: Request
+parentId: fld_wrk_46155bf58926427893e2d0a0ddcfb6cea16536d7
+modified: 1653950114427
+created: 1653950076228
+url: "{{ base_url }}/courses/{{ id }}/students"
+name: Update enrollment for a Course.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "add": [
+        "123",
+        "456"
+      ],
+      "remove": [
+        "123",
+        "456"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_01a424bc70e44d13a16d9bc256263583
+authentication: {}
+metaSortKey: -1653950076228
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

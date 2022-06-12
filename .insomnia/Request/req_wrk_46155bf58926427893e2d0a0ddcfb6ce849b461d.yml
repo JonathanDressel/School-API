@@ -1,0 +1,32 @@
+_id: req_wrk_46155bf58926427893e2d0a0ddcfb6ce849b461d
+type: Request
+parentId: fld_wrk_46155bf58926427893e2d0a0ddcfb6ce57f2b181
+modified: 1653950133146
+created: 1653950076231
+url: "{{ base_url }}/users/login"
+name: Log in a User.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Jane Doe",
+      "email": "doej@oregonstate.edu",
+      "password": "hunter2",
+      "role": "student"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_40841ae848584997a943dfa72abaeb8b
+authentication: {}
+metaSortKey: -1653950076231
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

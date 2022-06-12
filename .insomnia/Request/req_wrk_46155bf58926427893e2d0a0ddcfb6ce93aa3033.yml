@@ -1,0 +1,33 @@
+_id: req_wrk_46155bf58926427893e2d0a0ddcfb6ce93aa3033
+type: Request
+parentId: fld_wrk_46155bf58926427893e2d0a0ddcfb6cea16536d7
+modified: 1653950113332
+created: 1653950076230
+url: "{{ base_url }}/courses/{{ id }}"
+name: Update data for a specific Course.
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "subject": "CS",
+      "number": "493",
+      "title": "Cloud Application Development",
+      "term": "sp22",
+      "instructorId": "123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3abbe3ce4dc4481895e50103d0330b3f
+authentication: {}
+metaSortKey: -1653950076230
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

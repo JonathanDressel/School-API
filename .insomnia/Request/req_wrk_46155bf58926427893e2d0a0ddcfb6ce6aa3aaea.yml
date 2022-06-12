@@ -1,0 +1,27 @@
+_id: req_wrk_46155bf58926427893e2d0a0ddcfb6ce6aa3aaea
+type: Request
+parentId: fld_wrk_46155bf58926427893e2d0a0ddcfb6ce057d58c7
+modified: 1653950076225
+created: 1653950076225
+url: "{{ base_url }}/assignments/{{ id }}/submissions"
+name: Fetch the list of all Submissions for an Assignment.
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    disabled: true
+    value: "3"
+  - name: studentId
+    disabled: true
+    value: "null"
+headers: []
+authentication: {}
+metaSortKey: -1653950076225
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

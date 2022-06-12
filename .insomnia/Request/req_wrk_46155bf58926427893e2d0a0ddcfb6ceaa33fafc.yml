@@ -1,0 +1,21 @@
+_id: req_wrk_46155bf58926427893e2d0a0ddcfb6ceaa33fafc
+type: Request
+parentId: fld_wrk_46155bf58926427893e2d0a0ddcfb6ce057d58c7
+modified: 1653950076225
+created: 1653950076225
+url: "{{ base_url }}/assignments/{{ id }}"
+name: Remove a specific Assignment from the database.
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1653950076225
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

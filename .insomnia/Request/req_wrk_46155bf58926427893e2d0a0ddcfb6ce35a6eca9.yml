@@ -1,0 +1,33 @@
+_id: req_wrk_46155bf58926427893e2d0a0ddcfb6ce35a6eca9
+type: Request
+parentId: fld_wrk_46155bf58926427893e2d0a0ddcfb6cea16536d7
+modified: 1653950076231
+created: 1653950076231
+url: "{{ base_url }}/courses"
+name: Fetch the list of all Courses.
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    disabled: true
+    value: "3"
+  - name: subject
+    disabled: true
+    value: CS
+  - name: number
+    disabled: true
+    value: "493"
+  - name: term
+    disabled: true
+    value: sp22
+headers: []
+authentication: {}
+metaSortKey: -1653950076231
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
